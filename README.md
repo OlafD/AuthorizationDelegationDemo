@@ -1,4 +1,9 @@
-Example on how to use permission delegation in an Azure Web App. This project was set up in the following way:
+Example on how to use permission delegation in an Azure Web App. Also see this link for more information about delegation: 
+https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Factive-directory%2Fdevelop%2Fv1-permissions-and-consent&data=01%7C01%7Colaf.didszun%40plan-b-gmbh.com%7C008bb06597aa46419aba08d7226472f5%7C07957fd777e54597be214fcbc87e451a%7C1&sdata=3CevythMYXRUbts99m38JZT6lWNjSr%2FtcMm2%2Fx%2FP%2F6w%3D&reserved=0
+
+Very important is the sentence "Your app can never have more privileges than the signed-in user."!
+
+This project was set up in the following way:
 
 1. Create a new ASP.NET Web Application in Visual Studio (I used Visual Studio 2017), take an MVC application and configure 
 authentication against an Azure Active Directory. This will create a new App Registration in the selected Azure Active Directory.
